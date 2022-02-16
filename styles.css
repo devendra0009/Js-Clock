@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  background-color: #040720;
+  /* background-image: url("images/time-img.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 30px;
+}
+.container .text {
+  color: white;
+  min-height: 500px;
+  min-width: 500px;
+  padding-top: 150px;
+}
+.container img {
+  max-height: 500px;
+  max-width: 800px;
+}
+.time-img {
+  margin-top: 50px;
+}
